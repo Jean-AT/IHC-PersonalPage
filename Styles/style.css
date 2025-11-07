@@ -2,12 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color: #FFFFFF;
+    background-color: #E3F7F7;
     margin: 0;
     padding: 0;
 }
 .top-header{
-    background-color:#d7f2f2ea;
+    background-color:#a7b8b8bb;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -133,6 +133,7 @@ main{
 /*Estilos para la seccion de Monitoreo*/
 .monitoreo-hero{
     margin: 0 305px 0 305px ;
+    font-family: "Poppins", sans-serif;
 }
 .monitoreo-top{
     display: flex;
@@ -159,7 +160,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
@@ -167,12 +168,13 @@ main{
 .top-elemnts-one p{
     width: 90px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .top-elemnts-two{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
@@ -180,11 +182,12 @@ main{
 .top-elemnts-two p{
     width: 90px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .top-elemnts-three{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     align-items: center;
@@ -193,19 +196,21 @@ main{
 .top-elemnts-three p{
     width: 120px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .top-elemnts-four{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
 }
 .top-elemnts-four p{
-    width: 90px;
+    width: 150px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 
 .elements-middle{
@@ -222,53 +227,61 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
+    justify-content: center;
 }
 .middle-elemnts-one p{
     width: 90px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .middle-elemnts-two{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
+    justify-content: center;
 }
 .middle-elemnts-two p{
-    width: 90px;
+    width: 120px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .middle-elemnts-three{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     align-items: center;
     width: 125px;
+    justify-content: center;
 }
 .middle-elemnts-three p{
     width: 120px;
+    margin: 8px 0 8px 0;
     text-align: center;
 }
 .middle-elemnts-four{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
+    justify-content: center;
 }
 .middle-elemnts-four p{
-    width: 90px;
+    width: 120px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 
 
@@ -287,58 +300,67 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
+    justify-content: center;
 }
 .botton-elemnts-one p{
     width: 90px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .botton-elemnts-two{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
+    justify-content: center;
 }
 .botton-elemnts-two p{
     width: 90px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .botton-elemnts-three{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     align-items: center;
     width: 125px;
+    justify-content: center;
 }
 .botton-elemnts-three p{
     width: 120px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 .botton-elemnts-four{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 25px;
     width: 125px;
+    justify-content: center;
 }
 .botton-elemnts-four p{
     width: 90px;
     text-align: center;
+    margin: 8px 0 8px 0;
 }
 /*Style para nosotros*/
 
 .nosotros-hero{
     margin: 0 305px 4rem 305px;
+    font-family: "Poppins", sans-serif;
 }
 .parent-nosotros {
 display: grid;
@@ -410,6 +432,15 @@ grid-row-gap: 0px;
 }
 
 /*Style para contactanos*/
+.contactanos-hero{
+    font-family: "Poppins", sans-serif;
+    margin: 0 5rem 5rem 5rem;
+    height: 700px;
+}
+.contactanos-hero a{
+    text-decoration: none;
+    color: black;
+}
 
 .parent-contactanos{
 display: grid;
@@ -417,41 +448,51 @@ grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+height: 550px;
+
 }
 
 .div-redes { grid-area: 1 / 1 / 4 / 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+.div-redes img{
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
 }
 .div-mapas { grid-area: 3 / 2 / 4 / 6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+.div-mapas img{
+    border-radius: 25px;
 }
 .div-info { grid-area: 1 / 2 / 3 / 3; 
 display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .div-herramientas { grid-area: 1 / 3 / 3 / 4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .div-explora { grid-area: 1 / 4 / 3 / 5; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .div-consejos { grid-area: 1 / 5 / 3 / 6; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
