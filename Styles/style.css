@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(/Imagenes/fondo.png);
+    background-image: url(../Imagenes/fondo.png);
     background-repeat: no-repeat;                               /* 2. Evita que la imagen se repita */
     background-size: cover;                                     /* 3. Asegura que cubra toda el área */
     background-position: center center;                         /* 4. Centra la imagen */
