@@ -1,66 +1,3 @@
-.registration-form {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 0rem;
-}
-.registration-hero{
-    background-color: #0E5B80;
-    padding: 0.5rem 0 0.6rem 0;
-    margin: 0rem 45rem 0rem 45rem;
-}
-.registration img{
-    width: 10rem;
-    height: 10rem;
-    margin: 1rem;
-    display: block;
-    justify-self: center;
-}
-.form-group {
-    margin-bottom: 20px;
-}
-
-.label {
-    display: block; /* Importante para que aparezca arriba del input */
-    margin-left: 1rem;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #f8f8f8;
-}
-
-input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    font-size: 14px;
-    box-sizing: border-box; /* Para que el padding no aumente el ancho */
-}
-
-input:focus {
-    outline: none;
-    border-color: #1487BF;
-}
-
-.btn-registration {
-    width: 100%;
-    padding: 12px;
-    margin-top: 2rem;
-    background-color: #1487BF;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-
-.btn-registration:hover {
-    background-color: #0d6fa1;
-}
-
 .registration-form a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -74,8 +11,8 @@ input:focus {
 .btn-login{
     width: 50%;
     padding: 12px;
-    margin-left: 6.5rem;
-    background-color: #1487BF;
+    margin-left: 6rem;
+    background-color: #253754;
     color: white;
     border: none;
     border-radius: 25px;
@@ -83,10 +20,14 @@ input:focus {
     font-weight: 600;
     cursor: pointer;
 }
+.btn-login:hover {
+    background-color: #253754d5;
+    box-shadow: 2px 2px 5px black;
+}
 .btn-registration-facebook{
     width: 100%;
     padding: 12px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #053d58;
     color: white;
     border: none;
@@ -95,11 +36,15 @@ input:focus {
     font-weight: 600;
     cursor: pointer;
 }
+.btn-registration-facebook:hover {
+    background-color: #253754d5;
+    box-shadow: 2px 2px 5px black;
+}
 
 .btn-registration-google{
     width: 100%;
     padding: 12px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     background-color: #ffffff;
     border: none;
     border-radius: 25px;
@@ -108,5 +53,83 @@ input:focus {
     cursor: pointer;
 }
 .btn-registration-google a{
-    color: black;
+    color: black !important;
+}
+.btn-registration-google:hover {
+    background-color: #253754d5;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+.registration-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+}
+.registration-hero a{
+    text-decoration: none;
+    color: white;
+}
+.registration img{
+    width: 10rem;
+    height: 10rem;
+    margin: 5rem;
+    display: block;
+    justify-self: center;
+}
+.registration{
+    background-color: #adadad6c;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+.registration-form {
+    width: 370px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-family: "Poppins", sans-serif;
+    display: block; /* Importante para que aparezca arriba del input */
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #070606;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    box-sizing: border-box; /* Para que el padding no aumente el ancho */
+}
+
+input:focus {
+    outline: none;
+    border-color: #253754;
+}
+
+.btn-registration {
+    width: 100%;
+    padding: 12px;
+    margin-top: 1rem;
+    background-color: #253754;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-registration:hover {
+    background-color: #253754d5;
+    box-shadow: 2px 2px 5px black;
 }

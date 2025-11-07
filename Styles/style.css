@@ -2,12 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-color: #E3F7F7;
+    background-image: url(/Imagenes/fondo.png);
+    background-repeat: no-repeat;                               /* 2. Evita que la imagen se repita */
+    background-size: cover;                                     /* 3. Asegura que cubra toda el área */
+    background-position: center center;                         /* 4. Centra la imagen */
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
+
+
+/*TOP-HEADER AND STYLES*/
+
+
 .top-header{
-    background-color:#a7b8b8bb;
+    background-color: #d6cdc9;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -44,7 +53,10 @@ body{
 }
 
 .menu-horizontal > li > a:hover{
-    color: rgb(172, 163, 163);
+    color: #253754;
+    background-color: #f7f7f744;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-cuenta {
@@ -65,7 +77,7 @@ main{
 
 .hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 8rem;
     margin: 9.5rem;
     margin-top: 5rem;
@@ -81,7 +93,7 @@ main{
     display: grid;
     grid-template-rows: auto;
     align-items: center;
-    background-color: #2e607759;
+    background-color: #253754;
     border: #2e607709;
     border-style:groove;
     color: white;
@@ -89,7 +101,8 @@ main{
     border-radius: 25px;
     font-family: 'Nunito', sans-serif;
     font-size: bold;
-    font-size: 3rem
+    font-size: 3rem;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .text > h1{
     text-align: center;
@@ -108,7 +121,7 @@ main{
     
 }
 .comenzar-btn{
-    background-color:#1487BF;
+    background-color:#3c5985;
     border: none;
     border-radius: 15px;
     color:white;
@@ -118,7 +131,10 @@ main{
     place-items: center;
     font-size: 20px;
 }
-
+.comenzar-btn:hover{
+    background-color:#4f6381;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+}
 .btn-inicio {
     display: flex; /* Usa flex */
     padding: 0 !important; /* Quita el padding heredado */
@@ -130,6 +146,18 @@ main{
     display: block;
 }
 
+.image-interline{
+    margin: 3rem 0 3rem 0;
+}
+
+.image-interline img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
 /*Estilos para la seccion de Monitoreo*/
 .monitoreo-hero{
     margin: 0 305px 0 305px ;
@@ -140,6 +168,11 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #e3d8d4;
+    border-radius: 25px;
+    padding: 1rem 0 1rem 0;
+    margin: 0 9.5rem 0 9.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .monitoreo-top img{
     width: 100px;
@@ -212,6 +245,18 @@ main{
     text-align: center;
     margin: 8px 0 8px 0;
 }
+.top-elemnts-one:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.top-elemnts-two:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.top-elemnts-three:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.top-elemnts-four:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 .elements-middle{
     display: flex;
@@ -282,6 +327,18 @@ main{
     width: 120px;
     text-align: center;
     margin: 8px 0 8px 0;
+}
+.middle-elemnts-one:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.middle-elemnts-two:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.middle-elemnts-three:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.middle-elemnts-four:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -356,6 +413,19 @@ main{
     text-align: center;
     margin: 8px 0 8px 0;
 }
+.botton-elemnts-one:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.botton-elemnts-two:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.botton-elemnts-three:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.botton-elemnts-four:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 /*Style para nosotros*/
 
 .nosotros-hero{
@@ -379,6 +449,7 @@ grid-row-gap: 0px;
     margin: 3rem;
     background-color: #2e607759;
     border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .div-nosotros img{
     width: 40px;
@@ -395,11 +466,12 @@ grid-row-gap: 0px;
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    margin-top: 7rem;
+    margin-left: 3rem;
     background-color: #2e607759;
     border-radius: 25px;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .div-vis img{
     width: 70px;
@@ -416,11 +488,12 @@ grid-row-gap: 0px;
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    margin-top: 7rem;
+    margin-right: 3rem;
     background-color: #2e607759;
     border-radius: 25px;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .div-mision img{
     width: 70px;
@@ -434,12 +507,19 @@ grid-row-gap: 0px;
 /*Style para contactanos*/
 .contactanos-hero{
     font-family: "Poppins", sans-serif;
-    margin: 0 5rem 5rem 5rem;
+    padding: 0 5rem 0 5rem;
     height: 700px;
+    display: flex;
+    background-color: #b8b8b8;
+    align-items: center;
+    justify-content: center;
 }
 .contactanos-hero a{
     text-decoration: none;
     color: black;
+}
+.contactanos-hero a:hover{
+    color:#253754
 }
 
 .parent-contactanos{
