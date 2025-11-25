@@ -592,6 +592,8 @@ display: flex;
         height: auto;
         flex-direction: column;
     }
+
+    
     .monitoreo-top{
         margin: 0  ;
     }
@@ -656,9 +658,10 @@ display: flex;
 
     .parent-contactanos {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
         gap: 30px;
+        width: auto;
     }
 
     .div-redes, .div-mapas, .div-info, .div-herramientas, .div-explora, .div-consejos {
