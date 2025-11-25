@@ -610,9 +610,11 @@ display: flex;
     }
     .video-section{
         margin: 0;
+        width:27rem;
+        height:15rem;
     }
     .video-section iframe{
-        width:27rem;
+        width:26.7rem;
         height:15rem;
     }
     .hero img {
@@ -658,8 +660,8 @@ display: flex;
 
     .parent-contactanos {
         display: flex;
-        flex-direction: row;
-        height: auto;
+        flex-direction: column;
+        width:26.7rem;
         gap: 30px;
         width: auto;
     }
@@ -667,6 +669,10 @@ display: flex;
     .div-redes, .div-mapas, .div-info, .div-herramientas, .div-explora, .div-consejos {
         grid-area: auto;
         text-align: center;
+        width:26.7rem;
+    }
+    .div-mapas img{ 
+        width:26.7rem;
     }
 }
 
