@@ -133,3 +133,35 @@ input:focus {
     background-color: #253754d5;
     box-shadow: 2px 2px 5px black;
 }
+
+/* --- RESPONSIVE REGISTRATION --- */
+
+@media screen and (max-width: 1000px) {
+    .registration-hero {
+        margin: 2rem 1rem;
+    }
+
+    .registration {
+        flex-direction: column;
+        padding: 2rem;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .registration img {
+        margin: 2rem 0;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .registration-form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Ajustar botones */
+    .btn-login {
+        margin-left: 0; /* Quita el margen izquierdo forzado */
+        width: 100%;
+    }
+}

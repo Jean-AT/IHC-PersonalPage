@@ -70,3 +70,31 @@ input:focus {
     background-color: #253754d5;
     box-shadow: 2px 2px 5px black;
 }
+
+/* --- RESPONSIVE LOGIN --- */
+
+@media screen and (max-width: 900px) {
+    .login-hero {
+        margin: 5rem 1rem; /* Reduce margen vertical */
+    }
+
+    .login {
+        flex-direction: column; /* Imagen arriba, form abajo */
+        padding: 2rem;
+        width: 100%;
+        max-width: 500px; /* Evita que se estire demasiado */
+    }
+
+    .login img {
+        margin: 2rem 0;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .login-form {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}

@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/Login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="scripts" href="Scripts/auth.js" crossorigin>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="Scripts/auth.js"></script>
     <nav class="top-header">
         <ul class="menu-horizontal">
             <li>
@@ -44,22 +46,22 @@
                 <form class="login-form">
                     <div class="form-group">
                         <span class="label">Correo Electronico:</span>
-                        <input type="email" name="email" placeholder="example@" required>
+                        <input type="email" id="login-email" name="email" placeholder="example@" required>
                     </div>
 
                     <div class="form-group">
                         <span class="label">Contraseña:</span>
-                        <input type="contraseña" name="contraseña" placeholder="Password">
+                        <input type="password" id="login-password" name="contraseña" placeholder="Password">
                     </div>
-                    
-                    <button class="btn-login">
-                        <a href="index.html">Iniciar Sesion</a>
+
+                    <button type="button" id="btn-login-action" class="btn-login">
+                        Iniciar Sesion
                     </button>
+
                     <button class="btn-login">
                         <a href="registration.html">Registrarse</a>
                     </button>
                 </form>
-                
             </div>
         </section>
     </main>

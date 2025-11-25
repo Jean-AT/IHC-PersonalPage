@@ -576,3 +576,97 @@ display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
+/* --- RESPONSIVE DESIGN (Móviles y Tablets) --- */
+
+@media screen and (max-width: 1400px) {
+    .top-header {
+        width: 90%;
+        margin: 2rem auto; /* Centra el header y reduce márgenes laterales */
+        height: auto;
+        flex-direction: column;
+    }
+
+    .menu-horizontal {
+        flex-wrap: wrap; /* Permite que el menú baje si no cabe */
+        justify-content: center;
+    }
+
+    .hero {
+        margin: 2rem 0;
+        padding: 2rem;
+        flex-direction: column; /* Pone la imagen arriba y texto abajo */
+        text-align: center;
+    }
+
+    .hero img {
+        height: auto;
+        max-width: 80%; /* Imagen responsive */
+        margin-bottom: 2rem;
+    }
+
+    .text {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .text > p {
+        width: 100%; /* Quita el ancho fijo del párrafo */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .monitoreo-hero, .nosotros-hero {
+        margin: 0 2rem 4rem 2rem; /* Reduce los márgenes laterales gigantes */
+    }
+
+    /* Hace que los iconos de servicios se acomoden automáticamente */
+    .elements-top, .elements-middle, .elements-botton {
+        margin: 2rem 0;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* Grid de Nosotros a 1 sola columna */
+    .parent-nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-nosotros p, .div-vis p, .div-mision p {
+        width: 90%;
+        margin: 2rem !important;
+    }
+
+    /* Grid de Contáctanos a 1 sola columna */
+    .contactanos-hero {
+        height: auto; /* Quita la altura fija */
+        padding: 3rem 1rem;
+    }
+
+    .parent-contactanos {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .div-redes, .div-mapas, .div-info, .div-herramientas, .div-explora, .div-consejos {
+        grid-area: auto; /* Resetea el grid */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-header {
+        font-size: 14px;
+    }
+
+    .menu-horizontal > li {
+        margin: 0.5rem;
+    }
+
+    .text > h1 {
+        font-size: 32px;
+    }
+}
