@@ -34,8 +34,8 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    margin: 0; /* Añade esto */
-    padding: 10px; /* Añade esto */
+    margin: 0;
+    padding: 10px;
 }
 
 .menu-horizontal > li{
@@ -45,7 +45,7 @@ body{
     justify-content: center;
 }
 
-.menu-horizontal > li > a{ /* Estiliza los enlaces */
+.menu-horizontal > li > a{
     display: block;
     padding: 15px 20px;
     color: black;
@@ -60,8 +60,8 @@ body{
 }
 
 .btn-cuenta {
-    display: flex; /* Usa flex */
-    padding: 0 !important; /* Quita el padding heredado */
+    display: flex;
+    padding: 0 !important;
 }
 
 .btn-cuenta img{
@@ -577,6 +577,12 @@ display: flex;
     align-items: center;
 }
 
+.video-section{
+    margin: 3rem 37rem 3rem 37rem;
+    width:560px;
+    height:315px;
+}
+
 /* --- RESPONSIVE DESIGN (Móviles y Tablets) --- */
 
 @media screen and (max-width: 1400px) {
@@ -588,20 +594,20 @@ display: flex;
     }
 
     .menu-horizontal {
-        flex-wrap: wrap; /* Permite que el menú baje si no cabe */
+        flex-wrap: wrap;
         justify-content: center;
     }
 
     .hero {
         margin: 2rem 0;
         padding: 2rem;
-        flex-direction: column; /* Pone la imagen arriba y texto abajo */
+        flex-direction: column;
         text-align: center;
     }
 
     .hero img {
         height: auto;
-        max-width: 80%; /* Imagen responsive */
+        max-width: 80%;
         margin-bottom: 2rem;
     }
 
@@ -611,36 +617,29 @@ display: flex;
     }
 
     .text > p {
-        width: 100%; /* Quita el ancho fijo del párrafo */
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .monitoreo-hero, .nosotros-hero {
-        margin: 0 2rem 4rem 2rem; /* Reduce los márgenes laterales gigantes */
+        margin: 0 2rem 4rem 2rem;
     }
-
-    /* Hace que los iconos de servicios se acomoden automáticamente */
     .elements-top, .elements-middle, .elements-botton {
         margin: 2rem 0;
         flex-wrap: wrap;
         gap: 20px;
     }
-
-    /* Grid de Nosotros a 1 sola columna */
     .parent-nosotros {
         display: flex;
         flex-direction: column;
     }
-
     .div-nosotros p, .div-vis p, .div-mision p {
         width: 90%;
         margin: 2rem !important;
     }
-
-    /* Grid de Contáctanos a 1 sola columna */
     .contactanos-hero {
-        height: auto; /* Quita la altura fija */
+        height: auto;
         padding: 3rem 1rem;
     }
 
@@ -652,7 +651,7 @@ display: flex;
     }
 
     .div-redes, .div-mapas, .div-info, .div-herramientas, .div-explora, .div-consejos {
-        grid-area: auto; /* Resetea el grid */
+        grid-area: auto;
         text-align: center;
     }
 }

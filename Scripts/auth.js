@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const usuarioGuardado = localStorage.getItem('usuarioGlucoSmart');
             if (!usuarioGuardado) {
                 alert("No hay ningún usuario registrado. Por favor regístrate primero.");
+                window.location.href = "registration.html";
                 return;
             }
             const usuarioObj = JSON.parse(usuarioGuardado);
