@@ -679,6 +679,9 @@ display: flex;
 @media screen and (max-width: 480px) {
     .top-header {
         font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .menu-horizontal > li {
@@ -687,5 +690,26 @@ display: flex;
 
     .text > h1 {
         font-size: 32px;
+    }
+    .menu-toggle {
+        display: block; /* Mostrar botón hamburguesa en móviles */
+        color: black;
+    }
+    
+    .menu-horizontal {
+        display: none; /* Ocultar menú horizontal por defecto */
+        flex-direction: column; /* Mostrarlo en vertical al activarse */
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 5rem; /* Debajo del menú fijo */
+        left: 0;
+    }
+    .menu-horizontal.active {
+        display: flex; /* Mostrar menú al activar la clase */
+    }
+    
+    .menu-horizontal li {
+        border-bottom: 1px solid #ccc; /* Líneas separadoras */
     }
 }
