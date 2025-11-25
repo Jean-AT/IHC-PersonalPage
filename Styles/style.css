@@ -713,3 +713,42 @@ display: flex;
         border-bottom: 1px solid #ccc; /* Líneas separadoras */
     }
 }
+
+
+
+/* BOTÓN HAMBURGUESA (ESCONDE EN DESKTOP) */
+.menu-toggle {
+    display: none; /* Oculto por defecto */
+    font-size: 2rem; /* Tamaño del ícono hamburguesa */
+    background: none; /* Sin fondo */
+    border: none; /* Sin bordes */
+    cursor: pointer; /* Manito al pasar el mouse */
+    margin-right: 1rem; /* Espacio entre el borde derecho */
+  }
+  
+  /* RESPONSIVE: MÓVILES */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block; /* Mostrar botón hamburguesa en móviles */
+      color: black;
+    }
+  
+    .menu-horizontal {
+      display: none; /* Ocultar menú horizontal por defecto */
+      flex-direction: column; /* Mostrarlo en vertical al activarse */
+      width: 100%;
+      background-color: white;
+      position: absolute;
+      top: 5rem; /* Debajo del menú fijo */
+      left: 0;
+    }
+    .menu-horizontal.active {
+      display: flex; /* Mostrar menú al activar la clase */
+    }
+  
+    .menu-horizontal li {
+      border-bottom: 1px solid #ccc; /* Líneas separadoras */
+    }
+  }
+  
+  

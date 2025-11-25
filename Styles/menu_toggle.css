@@ -33,27 +33,3 @@
   }
 }
 
-
-@media (max-width: 1024px) {
-  .menu-toggle {
-    display: block; /* Mostrar botón hamburguesa en móviles */
-    color: black;
-  }
-
-  .menu-horizontal {
-    display: none; /* Ocultar menú horizontal por defecto */
-    flex-direction: column; /* Mostrarlo en vertical al activarse */
-    width: 100%;
-    background-color: white;
-    position: absolute;
-    top: 5rem; /* Debajo del menú fijo */
-    left: 0;
-  }
-  .menu-horizontal.active {
-    display: flex; /* Mostrar menú al activar la clase */
-  }
-
-  .menu-horizontal li {
-    border-bottom: 1px solid #ccc; /* Líneas separadoras */
-  }
-}
